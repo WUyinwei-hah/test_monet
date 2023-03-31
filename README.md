@@ -1,5 +1,8 @@
 # test_monet
 When trying train a MoNet with dgl, I got following errors:
+
+
+```
 Traceback (most recent call last):
   File "/home/Wuyinwei/Desktop/Distill_GCN_Experiment/test_monet.py", line 116, in <module>
     output = model(blocks, batch_inputs)
@@ -32,4 +35,4 @@ Stack trace:
   [bt] (7) /home/Wuyinwei/anaconda3/envs/ldgl/bin/python(_PyEval_EvalFrameDefault+0x4f48) [0x4cc578]
   [bt] (8) /home/Wuyinwei/anaconda3/envs/ldgl/bin/python() [0x4e8af7]
   
- 
+ ```
